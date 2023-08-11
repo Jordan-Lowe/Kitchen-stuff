@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.appContainer {
+	background-color: #1a1423;
+	/* background-color: #fbfef9; */
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	height: 100vh;
+	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth;
+	overflow-y: auto;
+	scrollbar-width: none;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Abril Fatface", serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+/* background-color: #1a1423; */

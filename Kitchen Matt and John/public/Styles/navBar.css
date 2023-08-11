@@ -1,0 +1,71 @@
+.navBarSection {
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	padding-bottom: 5px;
+}
+
+.navBarContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.navBarList {
+	display: flex;
+	flex-direction: row;
+	object-fit: contain;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	z-index: 1;
+	list-style: none;
+}
+
+.navHome {
+	color: #73877b;
+	text-decoration: none;
+	font-size: 1.5vw;
+
+	transition-property: transform;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+
+	&:hover {
+		transform: scale(1.25);
+	}
+}
+
+.navLogoImg {
+	width: 5vw;
+	height: 5vh;
+}
+
+.navFacebookImg {
+	width: 4vw;
+	height: 4vh;
+	filter: invert(54%) sepia(3%) saturate(1609%) hue-rotate(91deg) brightness(95%) contrast(88%);
+	transition-property: transform;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+
+	&:hover {
+		transform: scale(1.25);
+		cursor: pointer;
+	}
+}
+
+.navInstagramImg {
+	width: 4vw;
+	height: 5vh;
+	filter: invert(54%) sepia(3%) saturate(1609%) hue-rotate(91deg) brightness(95%) contrast(88%);
+
+	transition-property: transform;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+
+	&:hover {
+		transform: scale(1.25);
+		cursor: pointer;
+	}
+}
