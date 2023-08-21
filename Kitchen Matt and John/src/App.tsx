@@ -20,7 +20,7 @@ function App() {
 				<div id="about">
 					<AboutPage />
 				</div>
-				<div>
+				<div id="contact">
 					<ContactForm />
 				</div>
 			</div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../public/Styles/kitchenPage.css";
+import "../../public/Styles/about.css";
 import Header from "./Header";
 
 const kitchenImages = [
@@ -23,14 +23,14 @@ function AboutPage() {
 
 	return (
 		<>
-			<div className="kitchenPageSection">
+			<div className="aboutPageSection">
 				<Header />
 
-				<div className="kitchenPageContainer">
-					<div className="kitchenPageLeft">
-						<div className="kitchenPageText">
+				<div className="aboutPageContainer">
+					<div className="aboutPageLeft">
+						<div className="aboutPageText">
 							<h2>About Us</h2>
-							<p className="kitchenInfo">
+							<p className="aboutInfo">
 								Welcome to DBI Design Build Install. We specialize in creating
 								bespoke kitchen designs for our clients. With years of
 								experience, our team ensures top-notch quality and craftsmanship
@@ -38,7 +38,7 @@ function AboutPage() {
 							</p>
 						</div>
 					</div>
-					<div className="kitchenPageRight">
+					<div className="aboutPageRight">
 						<img
 							className={
 								currentKitchenImageIndex === 0 ? "imageIn" : "imageOut"

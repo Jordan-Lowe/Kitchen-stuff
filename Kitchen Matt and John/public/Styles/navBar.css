@@ -1,3 +1,4 @@
+/* Existing Styles */
 .navBarSection {
 	display: flex;
 	width: 80%;
@@ -44,7 +45,8 @@
 .navFacebookImg {
 	width: 4vw;
 	height: 4vh;
-	filter: invert(54%) sepia(3%) saturate(1609%) hue-rotate(91deg) brightness(95%) contrast(88%);
+	filter: invert(54%) sepia(3%) saturate(1609%) hue-rotate(91deg)
+		brightness(95%) contrast(88%);
 	transition-property: transform;
 	transition-duration: 300ms;
 	transition-timing-function: ease-in-out;
@@ -58,7 +60,8 @@
 .navInstagramImg {
 	width: 4vw;
 	height: 5vh;
-	filter: invert(54%) sepia(3%) saturate(1609%) hue-rotate(91deg) brightness(95%) contrast(88%);
+	filter: invert(54%) sepia(3%) saturate(1609%) hue-rotate(91deg)
+		brightness(95%) contrast(88%);
 
 	transition-property: transform;
 	transition-duration: 300ms;
@@ -67,5 +70,42 @@
 	&:hover {
 		transform: scale(1.25);
 		cursor: pointer;
+	}
+}
+
+/* Media Queries for Responsiveness */
+/* Mobile (small) */
+@media (max-width: 480px) {
+	.navBarContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.navBarList li {
+		font-size: 6vw;
+	}
+}
+
+/* Mobile (landscape) and Tablets (portrait) */
+@media (max-width: 768px) {
+	.navBarContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.navBarList li {
+		font-size: 5vw;
+	}
+}
+
+/* Tablets (landscape) and smaller laptops/screens */
+@media (max-width: 1024px) {
+	.navBarList li {
+		font-size: 4.5vw;
+	}
+}
+
+/* Laptops and desktops */
+@media (max-width: 1200px) {
+	.navBarList li {
+		font-size: 4vw;
 	}
 }

@@ -1,3 +1,4 @@
+/* Existing Styles */
 .headerSection {
 	display: flex;
 	width: 100%;
@@ -10,8 +11,8 @@
 	display: flex;
 	flex-direction: row;
 	/* background-color: #22333b; */
-	border: #70798c 2px solid;
-	border-radius: 5px;
+	/* border: #70798c 2px solid;
+	border-radius: 5px; */
 }
 
 .headerList {
@@ -29,7 +30,6 @@
 	color: #73877b;
 	text-decoration: none;
 	font-size: 1.5vw;
-
 }
 
 .headerList li {
@@ -39,5 +39,42 @@
 
 	&:hover {
 		transform: scale(1.25);
+	}
+}
+
+/* Media Queries for Responsiveness */
+/* Mobile (small) */
+@media (max-width: 480px) {
+	.headerContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.headerList li {
+		font-size: 6vw;
+	}
+}
+
+/* Mobile (landscape) and Tablets (portrait) */
+@media (max-width: 768px) {
+	.headerContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.headerList li {
+		font-size: 5vw;
+	}
+}
+
+/* Tablets (landscape) and smaller laptops/screens */
+@media (max-width: 1024px) {
+	.headerList li {
+		font-size: 4.5vw;
+	}
+}
+
+/* Laptops and desktops */
+@media (max-width: 1200px) {
+	.headerList li {
+		font-size: 4vw;
 	}
 }

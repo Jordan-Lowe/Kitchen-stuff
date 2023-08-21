@@ -15,7 +15,7 @@ function HomePage() {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-		}, 5000); // Change image every 5 seconds
+		}, 5000);
 
 		return () => clearInterval(interval); // Clear the interval on component unmount
 	}, [currentImageIndex]);
@@ -27,12 +27,13 @@ function HomePage() {
 				<div className="homePageContainer">
 					<div className="homePageLeft">
 						<div className="homePageText">
-							<h2>DBI Design Build Installation</h2>
+							<h1 className="homeHeader"> DBI Interior Specialists</h1>
+							<h2 className="home2ndHeader">Design Build Installation</h2>
 							<p className="homeInfo">
-								Welcome to DBI Design Build Install. We specialize in creating
-								bespoke kitchen designs for our clients. With years of
-								experience, our team ensures top-notch quality and craftsmanship
-								in every project.
+								Welcome to the nexus of innovation and elegance, where we
+								transform ordinary spaces into extraordinary interiors. Dive in
+								to discover the perfect blend of functionality and style for
+								your dream kitchen and beyond.
 							</p>
 						</div>
 					</div>

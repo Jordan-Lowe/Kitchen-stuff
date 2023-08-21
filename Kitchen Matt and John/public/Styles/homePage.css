@@ -1,3 +1,4 @@
+/* Existing Styles */
 .homePageSection {
 	display: flex;
 	flex-direction: column;
@@ -19,10 +20,14 @@
 }
 
 .homePageLeft {
+	justify-content: center;
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	background: #373f51;
+	background-image: url("../Images/BackgroundImages/Mosiac_Tiles.png");
+	background-size: 100%; /* Change this value to control the "zoom" level of the background */
+	background-repeat: no-repeat; /* To prevent the image from repeating */
+	background-position: center; /* To center the background image */
 	width: 100%;
 	height: 100%;
 	left: 0%;
@@ -30,6 +35,27 @@
 	border-radius: 5px;
 	padding-right: 3px;
 	margin-right: 3px;
+	overflow: hidden;
+}
+
+.homeHeader {
+	font-size: 70px;
+	font-weight: bolder;
+	color: white;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.homeInfo,
+home2ndHeader {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.home2ndHeader {
+	font-size: 50px;
+	font-weight: bolder;
+	color: white;
 }
 
 .homePageRight {
@@ -45,15 +71,17 @@
 }
 
 .homePageText {
+	/* justify-content: center; */
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	padding: 30px;
+	width: 90%;
+	padding: 10px;
 	align-items: center;
 	color: white;
 	text-decoration: none;
-	font-size: 1vw;
-	flex-shrink: inherit;
+	font-size: 1.5rem;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .imageIn,
@@ -99,5 +127,58 @@
 	}
 	to {
 		transform: translateX(-100%);
+	}
+}
+
+/* Media Queries for Responsiveness */
+/* Mobile (small) */
+@media (max-width: 480px) {
+	.homePageContainer {
+		flex-direction: column;
+	}
+
+	.homePageLeft,
+	.homePageRight {
+		width: 100%;
+		padding: 10px 0;
+	}
+}
+
+/* Mobile (landscape) and Tablets (portrait) */
+@media (max-width: 768px) {
+	.homePageContainer {
+		flex-direction: column;
+	}
+
+	.homePageLeft,
+	.homePageRight {
+		width: 100%;
+		padding: 15px 0;
+	}
+}
+
+/* Tablets (landscape) and smaller laptops/screens */
+@media (max-width: 1024px) {
+	.homePageContainer {
+		flex-direction: column;
+	}
+
+	.homePageLeft,
+	.homePageRight {
+		width: 100%;
+		padding: 20px 0;
+	}
+}
+
+/* Laptops and desktops */
+@media (max-width: 1200px) {
+	.homePageContainer {
+		flex-direction: column;
+	}
+
+	.homePageLeft,
+	.homePageRight {
+		width: 100%;
+		padding: 25px 0;
 	}
 }

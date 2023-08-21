@@ -1,3 +1,4 @@
+/* Existing Styles */
 .bannerSection {
 	display: flex;
 	width: 100%;
@@ -26,12 +27,50 @@
 	font-style: italic;
 }
 
-.bannerList li {
+/* .bannerList li {
 	transition-property: transform;
 	transition-duration: 300ms;
 	transition-timing-function: ease-in-out;
 
 	&:hover {
 		transform: scale(1.25);
+		cursor: pointer;
+	}
+} */
+
+/* Media Queries for Responsiveness */
+/* Mobile (small) */
+@media (max-width: 480px) {
+	.bannerContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.bannerList li {
+		font-size: 3.5vw;
+	}
+}
+
+/* Mobile (landscape) and Tablets (portrait) */
+@media (max-width: 768px) {
+	.bannerContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.bannerList li {
+		font-size: 3vw;
+	}
+}
+
+/* Tablets (landscape) and smaller laptops/screens */
+@media (max-width: 1024px) {
+	.bannerList li {
+		font-size: 2.8vw;
+	}
+}
+
+/* Laptops and desktops */
+@media (max-width: 1200px) {
+	.bannerList li {
+		font-size: 2.5vw;
 	}
 }
