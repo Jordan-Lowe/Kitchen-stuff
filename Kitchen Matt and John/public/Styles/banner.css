@@ -1,76 +1,74 @@
-/* Existing Styles */
+:root {
+  --primary-color: #70798c;
+  --secondary-color: #22333b;
+  --highlight-color: #73877b;
+}
+
 .bannerSection {
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	padding-top: 1px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 1px;
 }
 
 .bannerContainer {
-	width: 80%;
-	display: flex;
-	flex-direction: row;
-	background-color: #22333b;
-	border: #70798c 2px solid;
-	border-radius: 5px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
 }
 
-.bannerList {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	list-style: none;
-	color: white;
-	justify-content: space-evenly;
-	text-decoration: none;
-	font-size: 1vw;
-	font-style: italic;
+.banner__list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+  font-style: italic;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+  }
 }
 
-/* .bannerList li {
-	transition-property: transform;
-	transition-duration: 300ms;
-	transition-timing-function: ease-in-out;
-
-	&:hover {
-		transform: scale(1.25);
-		cursor: pointer;
-	}
-} */
-
-/* Media Queries for Responsiveness */
-/* Mobile (small) */
 @media (max-width: 480px) {
-	.bannerContainer {
-		flex-direction: column;
-		align-items: center;
-	}
-	.bannerList li {
-		font-size: 3.5vw;
-	}
+  .bannerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner__list li {
+    font-size: 3.5vw;
+  }
 }
 
-/* Mobile (landscape) and Tablets (portrait) */
 @media (max-width: 768px) {
-	.bannerContainer {
-		flex-direction: column;
-		align-items: center;
-	}
-	.bannerList li {
-		font-size: 3vw;
-	}
+  .bannerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner__list li {
+    font-size: 3vw;
+  }
 }
 
-/* Tablets (landscape) and smaller laptops/screens */
 @media (max-width: 1024px) {
-	.bannerList li {
-		font-size: 2.8vw;
-	}
+  .banner__list li {
+    font-size: 2.8vw;
+  }
 }
 
-/* Laptops and desktops */
 @media (max-width: 1200px) {
-	.bannerList li {
-		font-size: 2.5vw;
-	}
+  .banner__list li {
+    font-size: 2.5vw;
+  }
 }
