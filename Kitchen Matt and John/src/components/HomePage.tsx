@@ -26,33 +26,24 @@ function HomePage() {
         <NavBar />
         <div className="homePageContainer">
           <div className="homePageLeft">
-            <div className="homePageText">
-              <h1 className="homeHeader"> DBI Interior Specialists</h1>
-              <h2 className="home2ndHeader">Kitchens done right</h2>
-              <p className="homeInfo">
-                Welcome to the nexus of innovation and elegance, where we
-                transform ordinary spaces into extraordinary interiors. Dive in
-                to discover the perfect blend of functionality and style for
-                your dream kitchen and beyond.
-              </p>
+            <div className="homeLogo">
+              <img
+                src="../Images/Logos/SecondLogo.png"
+                alt="Logo"
+                className="home2ndLogo"
+              />
             </div>
           </div>
           <div className="homePageRight">
-            <img
-              className={currentImageIndex === 0 ? 'imageIn' : 'imageOut'}
-              src={images[0]}
-              alt="Kitchen 1"
-            />
-            <img
-              className={currentImageIndex === 1 ? 'imageIn' : 'imageOut'}
-              src={images[1]}
-              alt="Kitchen 2"
-            />
-            <img
-              className={currentImageIndex === 2 ? 'imageIn' : 'imageOut'}
-              src={images[2]}
-              alt="Kitchen 3"
-            />
+            <div className="headerCap">
+              <p>Hi</p>
+            </div>
+            <div className="boxesContainer">
+              <div className="imgSteps"></div>
+              <div className="imgSteps"></div>
+              <div className="imgSteps"></div>
+              <div className="imgSteps"></div>
+            </div>
           </div>
         </div>
         <Banner />

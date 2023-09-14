@@ -24,10 +24,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-image: url('../Images/BackgroundImages/Mosiac_Tiles.png');
-  background-size: 100%; /* Change this value to control the "zoom" level of the background */
-  background-repeat: no-repeat; /* To prevent the image from repeating */
-  background-position: center; /* To center the background image */
+  background-color: #fff;
   width: 100%;
   height: 100%;
   left: 0%;
@@ -36,6 +33,19 @@
   padding-right: 3px;
   margin-right: 3px;
   overflow: hidden;
+}
+
+.homeLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home2ndLogo {
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  width: 90%;
 }
 
 h1 {
@@ -64,6 +74,7 @@ home2ndHeader {
 
 .homePageRight {
   flex: 1;
+  flex-direction: column;
   color: white;
   display: flex;
   justify-content: end;
@@ -71,7 +82,40 @@ home2ndHeader {
   overflow: hidden;
   padding-left: 3px;
   height: 100%;
+  width: 100%;
   margin-left: 3px;
+}
+
+.headerCap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40%;
+}
+
+.boxesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imgSteps {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #70798c;
+  border-radius: 5px;
 }
 
 .homePageText {
