@@ -39,10 +39,14 @@ function HomePage() {
               <p>Hi</p>
             </div>
             <div className="boxesContainer">
-              <div className="imgSteps"></div>
-              <div className="imgSteps"></div>
-              <div className="imgSteps"></div>
-              <div className="imgSteps"></div>
+              <div className="firstBoxCon">
+                <div className="imgSteps"></div>
+                <div className="imgSteps"></div>
+              </div>
+              <div className="secondBoxCon">
+                <div className="imgSteps"></div>
+                <div className="imgSteps"></div>
+              </div>
             </div>
           </div>
         </div>

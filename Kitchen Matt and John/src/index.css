@@ -6,7 +6,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 
-  background-color: #1a1423;
+  background-color: #252422;
 }
 
 .appContainer {
@@ -26,6 +26,7 @@ p {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
   font-weight: 200;
+  color: black;
 }
 
 li,
@@ -42,4 +43,52 @@ h5,
 h6 {
   font-family: 'Playfair Display', sans-serif;
   font-weight: 500;
+}
+
+h2 {
+  font-size: 2.5rem; /* Base size for larger screens */
+}
+
+p {
+  font-size: 1.5rem; /* Base size for larger screens */
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
 }

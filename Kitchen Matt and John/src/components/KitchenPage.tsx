@@ -30,22 +30,26 @@ function KitchenPage() {
         <div className="kitchenPageContainer">
           <div className="kitchenPageLeft">
             <div className="kitchenPageText">
-              <h2>Our Kitchen Projects</h2>
+              <h2>
+                <br></br>Our Kitchen Projects
+              </h2>
               <p className="kitchenInfo">
                 Discover a world of kitchen possibilities with DBI Interior
                 Specialist. We offer tailored kitchen installations, whether
                 you're looking for a custom design that perfectly matches your
-                style or a practical flat-packed solution. Our team works
-                closely with you to bring your ideas to life, ensuring your
-                custom kitchen reflects your preferences. From cabinetry to
-                countertops, we focus on the details that matter most to you. If
-                a budget-friendly option is what you seek, our flat-packed
-                kitchen installations provide a smart and functional choice. Our
-                skilled team assembles and installs flat-pack kitchens
-                efficiently, delivering a seamless blend of affordability and
-                quality. With DBI Interior Specialist, you can expect dependable
-                kitchen installation services that cater to your individual
-                needs.
+                style or a practical flat-packed solution.<br></br>
+                <br></br> Our team works closely with you to bring your ideas to
+                life, ensuring your custom kitchen reflects your preferences.
+                From cabinetry to countertops, we focus on the details that
+                matter most to you. If a budget-friendly option is what you
+                seek, our flat-packed kitchen installations provide a smart and
+                functional choice.
+                <br></br>
+                <br></br> Our skilled team assembles and installs flat-pack
+                kitchens efficiently, delivering a seamless blend of
+                affordability and quality. With DBI Interior Specialist, you can
+                expect dependable kitchen installation services that cater to
+                your individual needs.
               </p>
             </div>
           </div>

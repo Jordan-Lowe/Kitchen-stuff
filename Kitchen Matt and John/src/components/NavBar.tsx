@@ -6,13 +6,6 @@ function NavBar() {
       <div className="navBarSection">
         <div className="navBarContainer">
           <ul className="navBarList">
-            <li className="navLogo">
-              <img
-                className="navLogoImg"
-                src="../Images/Logos/Logo.jpeg"
-                alt="Logo"
-              />
-            </li>
             <li className="navHome">
               <a className="navHome" href="#home">
                 Home
@@ -28,11 +21,7 @@ function NavBar() {
                 Wardrobe
               </a>
             </li>
-            <li className="navHome">
-              <a className="navHome" href="#about">
-                About
-              </a>
-            </li>
+
             <li className="navHome">
               <a className="navHome" href="#contact">
                 Contact

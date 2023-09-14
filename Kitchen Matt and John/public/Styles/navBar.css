@@ -24,7 +24,7 @@
 }
 
 .navHome {
-  color: #73877b;
+  filter: brightness(0) invert(1);
   text-decoration: none;
   font-size: 1.5vw;
 
@@ -45,8 +45,8 @@
 .navFacebookImg {
   width: 4vw;
   height: 4vh;
-  filter: invert(54%) sepia(3%) saturate(1609%) hue-rotate(91deg)
-    brightness(95%) contrast(88%);
+  filter: brightness(0) invert(1);
+
   transition-property: transform;
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
@@ -60,8 +60,7 @@
 .navInstagramImg {
   width: 4vw;
   height: 5vh;
-  filter: invert(54%) sepia(3%) saturate(1609%) hue-rotate(91deg)
-    brightness(95%) contrast(88%);
+  filter: brightness(0) invert(1);
 
   transition-property: transform;
   transition-duration: 300ms;

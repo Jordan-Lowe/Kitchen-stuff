@@ -29,14 +29,6 @@
   text-decoration: none;
   font-size: 1vw;
   font-style: italic;
-  transition-property: transform;
-  transition-duration: 300ms;
-  transition-timing-function: ease-in-out;
-
-  &:hover {
-    transform: scale(1.25);
-    cursor: pointer;
-  }
 }
 
 @media (max-width: 480px) {
@@ -46,7 +38,7 @@
   }
 
   .banner__list li {
-    font-size: 3.5vw;
+    font-size: 0.5rem;
   }
 }
 
@@ -57,18 +49,18 @@
   }
 
   .banner__list li {
-    font-size: 3vw;
+    font-size: 0.85rem;
   }
 }
 
 @media (max-width: 1024px) {
   .banner__list li {
-    font-size: 2.8vw;
+    font-size: 0rem;
   }
 }
 
 @media (max-width: 1200px) {
   .banner__list li {
-    font-size: 2.5vw;
+    font-size: 0.95rem;
   }
 }
