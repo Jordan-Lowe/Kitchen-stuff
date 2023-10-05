@@ -86,64 +86,6 @@ h1 {
   margin-left: 3px;
 }
 
-.headerCap {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  width: 100%;
-  height: 60%;
-}
-
-.boxesContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  grid-template-rows: repeat(2, 1fr); /* 2 rows */
-  gap: 10px; /* Gap between grid items */
-  width: 100%;
-  height: 75%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.BoxCon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-}
-
-.repairGuy {
-  display: flex;
-  height: 50%;
-  width: 50%;
-  border: 5px solid #000;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-}
-
-.repairGuy img {
-  object-fit: contain;
-  height: 50%;
-  width: 50%;
-}
-
-.homePageText {
-  /* justify-content: center; */
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  padding: 10px;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
 .imageIn,
 .imageOut {
   position: absolute;

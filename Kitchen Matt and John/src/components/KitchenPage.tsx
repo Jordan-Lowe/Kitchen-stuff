@@ -34,61 +34,74 @@ function KitchenPage() {
                 <br></br>Our Kitchen Projects
               </h2>
               <p className="kitchenInfo">
-                Discover a world of kitchen possibilities with DBI Interior
-                Specialist. We offer tailored kitchen installations, whether
-                you're looking for a custom design that perfectly matches your
-                style or a practical flat-packed solution.<br></br>
-                <br></br> Our team works closely with you to bring your ideas to
-                life, ensuring your custom kitchen reflects your preferences.
-                From cabinetry to countertops, we focus on the details that
-                matter most to you. If a budget-friendly option is what you
-                seek, our flat-packed kitchen installations provide a smart and
-                functional choice.
+                At dbi studio, our primary aim is to offer you a hassle-free
+                experience while delivering exceptional quality. As a close-knit
+                team, we guide you throughout the entire process, setting us
+                apart from larger companies and ensuring a personalized,
+                hands-on approach. We're readily available to address any
+                questions or modifications you may have.<br></br>
+                <br></br> When embarking on your kitchen project, it's common to
+                feel uncertain about where to start. It is important to consider
+                any work that may need to be done before a kitchen installation:
                 <br></br>
-                <br></br> Our skilled team assembles and installs flat-pack
-                kitchens efficiently, delivering a seamless blend of
-                affordability and quality. With DBI Interior Specialist, you can
-                expect dependable kitchen installation services that cater to
-                your individual needs.
+                <br></br>
+                <ul className="kitchenList">
+                  <li>Builder</li>
+                  <li>Plasterer</li>
+                  <li>Painter & Decorator</li>
+                  <li>Plumber</li>
+                  <li>Electrician</li>
+                  <li>Lighting</li>
+                  <li>Interior Furnishings</li>
+                  <li>Materials</li>
+                  <li>Budget</li>
+                </ul>
+                We can connect you with our trusted tradespeople for building,
+                plumbing, and electrical work, guaranteeing a seamless journey
+                from the initial consultation to project completion.
+                Alternatively, you can choose your own professionals.<br></br>
+                <br></br>
+                In our kitchens, we exclusively utilize top-of-the-line
+                hardware. For drawers, hinges, and lift-up fittings, we rely on
+                Blum, a reputable Austrian manufacturer with a lifetime limited
+                warranty. Blum's commitment to quality and exceeding industry
+                standards ensures exceptional durability.<br></br>
+                <br></br> Complementing this, we incorporate accessories from
+                our trusted suppliers, always prioritizing the highest-quality
+                products to achieve the finest finish possible.<br></br>
+                <br></br> If our approach resonates with you and aligns with
+                your kitchen aspirations, reach out to us through our contact
+                page, and let's begin crafting your dream kitchen together.
               </p>
             </div>
           </div>
           <div className="kitchenPageRight">
-            <img
-              className={
-                currentKitchenImageIndex === 0 ? 'imageIn' : 'imageOut'
-              }
-              src={kitchenImages[0]}
-              alt="Kitchen 1"
-            />
-            <img
-              className={
-                currentKitchenImageIndex === 1 ? 'imageIn' : 'imageOut'
-              }
-              src={kitchenImages[1]}
-              alt="Kitchen 2"
-            />
-            <img
-              className={
-                currentKitchenImageIndex === 2 ? 'imageIn' : 'imageOut'
-              }
-              src={kitchenImages[2]}
-              alt="Kitchen 3"
-            />
-            <img
-              className={
-                currentKitchenImageIndex === 3 ? 'imageIn' : 'imageOut'
-              }
-              src={kitchenImages[2]}
-              alt="Kitchen 3"
-            />
-            <img
-              className={
-                currentKitchenImageIndex === 4 ? 'imageIn' : 'imageOut'
-              }
-              src={kitchenImages[2]}
-              alt="Kitchen 3"
-            />
+            <div className="boxesContainer">
+              <div className="BoxCon">
+                <div className="repairGuy">
+                  <img src="../Images/SVG Icons/repair-guy-outline-svgrepo-com (1).svg"></img>
+                </div>
+              </div>
+              <p>
+                Start by understanding your preferences and requirements to
+                ensure your satisfaction.
+              </p>
+              <div className="BoxCon">
+                <div className="repairGuy">
+                  <img src="../Images/SVG Icons/design-svgrepo-com.svg"></img>
+                </div>
+              </div>
+              <div className="BoxCon">
+                <div className="repairGuy">
+                  <img src="../Images/SVG Icons/sledgehammer-svgrepo-com.svg"></img>
+                </div>
+              </div>
+              <div className="BoxCon">
+                <div className="repairGuy">
+                  <img src="../Images/SVG Icons/double-wrench-tool-and-hammer-forming-a-cross-of-outlines-svgrepo-com.svg"></img>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
