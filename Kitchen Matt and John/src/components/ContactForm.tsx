@@ -13,8 +13,8 @@ const ContactForm = () => {
     if (ref.current) {
       emailjs
         .sendForm(
-          'service_4pasqyi',
-          'template_k7bv08d',
+          'service_0mg7g4v',
+          'template_bnpealn',
           ref.current,
           'AU1p_xj5N1oAy9WJO'
         )

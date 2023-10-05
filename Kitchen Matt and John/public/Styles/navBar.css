@@ -79,8 +79,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .navBarList li {
-    font-size: 6vw;
+  .navBarList a {
+    font-size: 1rem;
   }
 }
 

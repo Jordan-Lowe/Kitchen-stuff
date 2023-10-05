@@ -22,23 +22,31 @@
 
 .banner__list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   list-style: none;
   color: white;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 1rem; /* Changed from 1vw to 1rem */
   font-style: italic;
+  object-fit: contain;
+  margin: 0;
 }
 
+.bannerItem {
+  margin-left: 0;
+  text-align: center;
+}
+
+/* Adjusting breakpoints and font-sizes for better responsiveness */
 @media (max-width: 480px) {
   .bannerContainer {
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
   }
 
   .banner__list li {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -55,7 +63,7 @@
 
 @media (max-width: 1024px) {
   .banner__list li {
-    font-size: 0rem;
+    font-size: 0.9rem;
   }
 }
 

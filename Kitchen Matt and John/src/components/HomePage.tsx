@@ -39,13 +39,25 @@ function HomePage() {
               <p>Hi</p>
             </div>
             <div className="boxesContainer">
-              <div className="firstBoxCon">
-                <div className="imgSteps"></div>
-                <div className="imgSteps"></div>
+              <div className="BoxCon">
+                <div className="repairGuy">
+                  <img src="../Images/SVG Icons/repair-guy-outline-svgrepo-com (1).svg"></img>
+                </div>
               </div>
-              <div className="secondBoxCon">
-                <div className="imgSteps"></div>
-                <div className="imgSteps"></div>
+              <div className="BoxCon">
+                <div className="repairGuy">
+                  <img src="../Images/SVG Icons/design-svgrepo-com.svg"></img>
+                </div>
+              </div>
+              <div className="BoxCon">
+                <div className="repairGuy">
+                  <img src="../Images/SVG Icons/sledgehammer-svgrepo-com.svg"></img>
+                </div>
+              </div>
+              <div className="BoxCon">
+                <div className="repairGuy">
+                  <img src="../Images/SVG Icons/double-wrench-tool-and-hammer-forming-a-cross-of-outlines-svgrepo-com.svg"></img>
+                </div>
               </div>
             </div>
           </div>
