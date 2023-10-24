@@ -1,22 +1,27 @@
 /* Existing Styles */
 .navBarSection {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   padding-bottom: 5px;
+  background-color: #333;
+  position: fixed;
+  top: 0%;
+  z-index: 1000;
 }
 
 .navBarContainer {
   width: 100%;
   display: flex;
   flex-direction: row;
+  /* background-color: #333; */
 }
 
 .navBarList {
   display: flex;
   flex-direction: row;
   object-fit: contain;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   align-items: center;
   z-index: 1;

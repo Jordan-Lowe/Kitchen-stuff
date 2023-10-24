@@ -15,7 +15,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: #70798c 2px solid;
+  /* border: #70798c 2px solid; */
   border-radius: 5px;
 }
 
@@ -28,7 +28,6 @@
   width: 100%;
   height: 100%;
   left: 0%;
-  border: 2px solid #70798c;
   border-radius: 5px;
   padding-right: 3px;
   margin-right: 3px;
@@ -84,6 +83,7 @@ h1 {
   height: 100%;
   width: 100%;
   margin-left: 3px;
+  border: #333 2px solid;
 }
 
 .imageIn,
@@ -106,11 +106,11 @@ h1 {
   transform: translateX(-100%);
 }
 
-.homePageRight img.imageIn {
+.kitchenPageRight img.imageIn {
   animation: slideIn 2s ease-out forwards;
 }
 
-.homePageRight img.imageOut {
+.kitchenPageRight img.imageOut {
   animation: slideOut 2s ease-out forwards;
 }
 

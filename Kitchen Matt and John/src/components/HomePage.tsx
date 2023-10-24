@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import '../../public/Styles/homePage.css'
 import NavBar from './NavBar'
 import Banner from './Banner'
@@ -6,7 +6,6 @@ import Review from './Review'
 
 const kitchenImages = [
   '../Images/Kitchen/3Kitchen.jpg',
-  // "../Images/Kitchen/4Kitchen.png",
   '../Images/Kitchen/6Kitchen.jpeg',
   '../Images/Kitchen/7Kitchen.jpeg',
   '../Images/Kitchen/8Kitchen.jpeg',
@@ -79,7 +78,9 @@ function HomePage() {
             <Review />
           </div>
         </div>
-        <Banner />
+        <div className="bannerSection">
+          <Banner />
+        </div>
       </div>
     </>
   )

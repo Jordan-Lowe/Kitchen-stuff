@@ -31,7 +31,7 @@ function KitchenPage() {
           <div className="kitchenPageLeft">
             <div className="kitchenPageText">
               <h2>
-                <br></br>Our Kitchen Projects
+                <br></br>Kitchen Installation
               </h2>
               <p className="kitchenInfo">
                 At dbi studio, our primary aim is to offer you a hassle-free
@@ -76,30 +76,46 @@ function KitchenPage() {
             </div>
           </div>
           <div className="kitchenPageRight">
+            <div className="processContainer">
+              <h3 className="process">Our Process</h3>
+            </div>
             <div className="boxesContainer">
               <div className="BoxCon">
                 <div className="repairGuy">
                   <img src="../Images/SVG Icons/repair-guy-outline-svgrepo-com (1).svg"></img>
                 </div>
+                <h3>Hi</h3>
+                <p className="stepsList">
+                  <br></br>Start by understanding your preferences and
+                  requirements to ensure your satisfaction.
+                </p>
               </div>
-              <p>
-                Start by understanding your preferences and requirements to
-                ensure your satisfaction.
-              </p>
               <div className="BoxCon">
                 <div className="repairGuy">
                   <img src="../Images/SVG Icons/design-svgrepo-com.svg"></img>
                 </div>
+                <p className="stepsList">
+                  Translate consultation insights into a collaborative design
+                  process. We'll also discuss plumbing, electrical changes, and
+                  flooring plans.
+                </p>
               </div>
               <div className="BoxCon">
                 <div className="repairGuy">
                   <img src="../Images/SVG Icons/sledgehammer-svgrepo-com.svg"></img>
                 </div>
+                <p className="stepsList">
+                  Prepare the space by removing your old kitchen.
+                </p>
               </div>
               <div className="BoxCon">
                 <div className="repairGuy">
                   <img src="../Images/SVG Icons/double-wrench-tool-and-hammer-forming-a-cross-of-outlines-svgrepo-com.svg"></img>
                 </div>
+                <p className="stepsList">
+                  The exciting final step! We'll install your pre-built cabinets
+                  within a week for a stress-free experience.
+                </p>
               </div>
             </div>
           </div>
