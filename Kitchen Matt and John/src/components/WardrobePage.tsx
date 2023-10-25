@@ -29,7 +29,7 @@ function WardrobePage() {
           <div className="kitchenPageLeft">
             <div className="kitchenPageText">
               <div className="space"></div>
-              <h2>Our Wardrobe Projects</h2>
+              <h2>Wardrobe Installations</h2>
               <p className="kitchenInfo">
                 Elevate your storage solutions with our exceptional fixed set
                 wardrobe installations. DBI Interior Specialist is your trusted
@@ -47,7 +47,7 @@ function WardrobePage() {
               </p>
             </div>
           </div>
-          <div className="kitchenPageRight">
+          <div className="wardrobePageRight">
             <img
               className={
                 currentKitchenImageIndex === 0 ? 'imageIn' : 'imageOut'

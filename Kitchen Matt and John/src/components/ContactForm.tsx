@@ -64,14 +64,14 @@ const ContactForm = () => {
             {success &&
               'Your message has been sent. I will get back to you soon'}
           </form>
-        </div>
-        <div className="contactRight">
           <div className="contactCall">
             <h2 className="contactNumber">
               Call us today!<br></br>
               022555645
             </h2>
           </div>
+        </div>
+        <div className="contactRight">
           <div className="contactMap">
             <iframe
               className="contactMap"

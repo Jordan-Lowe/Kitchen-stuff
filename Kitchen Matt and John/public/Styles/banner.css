@@ -27,7 +27,7 @@
   list-style: none;
   color: white;
   text-decoration: none;
-  font-size: 1rem; /* Changed from 1vw to 1rem */
+  font-size: 1rem;
   font-style: italic;
   object-fit: contain;
   margin: 0;
